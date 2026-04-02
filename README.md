@@ -31,11 +31,7 @@ Access data via pgAdmin or SQL queries.
 - Uses **Groq LLM** to answer general queries.  
 - **LangChain** wraps the LLM calls for easier integration.
 
-  `.env` file stores:
 
-```env
-LLM_MODEL=groq-llm
-LLM_API_KEY=your_api_key_here
 
 
 ⚙️ Setup Instructions
