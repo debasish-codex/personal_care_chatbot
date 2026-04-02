@@ -13,8 +13,7 @@ def handle_user_query(user_input):
     # 🔹 Step 2: Initialize reply
     bot_reply = ""
 
-    # 🔹 Step 3: Handle different intents
-
+    # 🔹 Step 3: Handle different intents  
     # ✅ Product Query
     if intent == "product":
 
@@ -34,7 +33,7 @@ def handle_user_query(user_input):
                 response_lines.append(line)
 
             bot_reply = "\n".join(response_lines)
-
+            
     # ✅ General Query
     elif intent == "general":
 

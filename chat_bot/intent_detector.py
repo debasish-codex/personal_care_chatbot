@@ -6,7 +6,7 @@ def detect_intent(user_input):
     text = user_input.lower()
     text = text.strip()
 
-    # 🔹 Step 2: Define keyword lists
+    # 🔹 Step 2: Define keyword lists  
     support_keywords = ["return", "refund", "replace", "offer", "discount"]
 
     general_keywords = ["benefit", "why", "how", "use", "advantages"]
