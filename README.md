@@ -37,19 +37,16 @@ Access data via pgAdmin or SQL queries.
 1️⃣ Clone the repository
 git clone <your_repo_url>
 cd personal_care_chatbot
+
 2️⃣ Create a virtual environment
 python -m venv venv
 3️⃣ Activate virtual environment
-
 Windows:
-
 venv\Scripts\activate
 
-Mac/Linux:
-
-source venv/bin/activate
 4️⃣ Install dependencies
 pip install -r requirements.txt
+
 5️⃣ Setup .env file
 LLM_MODEL=groq-llm
 LLM_API_KEY=your_api_key_here
@@ -58,17 +55,17 @@ DB_USER=postgres
 DB_PASSWORD=your_db_password
 DB_HOST=localhost
 DB_PORT=5432
+
 6️⃣ Run PostgreSQL server
 Ensure PostgreSQL is installed and running.
 Create a database (e.g., chatbot_db).
+
 🚀 Run the Chatbot
 
 CLI version:
-
 python app.py
 
 Frontend (optional Streamlit version):
-
 streamlit run frontend.py
 
 ```
