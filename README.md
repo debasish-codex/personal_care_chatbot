@@ -51,13 +51,13 @@ Install dependencies:
 pip install -r requirements.txt
 
 Setup .env file:
-LLM_MODEL=groq-llm
-LLM_API_KEY=your_api_key_here
-DB_NAME=chatbot_db
-DB_USER=postgres
-DB_PASSWORD=your_db_password
-DB_HOST=localhost
-DB_PORT=5432
+-LLM_MODEL=groq-llm
+-LLM_API_KEY=your_api_key_here
+-DB_NAME=chatbot_db
+-DB_USER=postgres
+-DB_PASSWORD=your_db_password
+-DB_HOST=localhost
+-DB_PORT=5432
 
 Run PostgreSQL server and create a database (e.g., chatbot_db).
 
