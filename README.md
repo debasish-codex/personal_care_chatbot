@@ -69,6 +69,9 @@ Frontend (optional Streamlit version):
 streamlit run frontend.py
 
 ```
+
+<img width="1565" height="877" alt="Screenshot 2026-04-02 175545" src="https://github.com/user-attachments/assets/f52829e7-ac90-4c28-a8b3-4c091358a059" />
+
 ⚡ Features
 - Product search with filters (price, brand)
 - LLM-powered general queries (benefits, usage)
