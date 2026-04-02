@@ -73,22 +73,11 @@ streamlit run frontend.py
 
 ```
 ⚡ Features
-Product search with filters (price, brand)
-LLM-powered general queries (benefits, usage)
-Redirect to support for returns, refunds, and offers
-Store conversations in PostgreSQL
+- Product search with filters (price, brand)
+- LLM-powered general queries (benefits, usage)
+- Redirect to support for returns, refunds, and offers
+-  conversations in PostgreSQL
+  ---
 🖋 Developed By
 
 Debasish Pradhan
-
-
-✅ Key points:
-- Use **triple backticks ```** for code blocks → ensures commands are line by line  
-- Use **two spaces at end of line** (or `-` bullets) to create line breaks in Markdown  
-- Use `---` to separate sections  
-
----
-
-If you want, I can **combine this Setup section with your full chatbot README including database, LLM, and screenshots** in a **single professional README** ready for GitHub.  
-
-Do you want me to do that next?
