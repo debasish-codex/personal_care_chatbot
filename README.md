@@ -32,6 +32,7 @@ Access data via pgAdmin or SQL queries.
 - **LangChain** wraps the LLM calls for easier integration.
 
 ## ⚙️ Setup Instructions
+```bash
 
 1️⃣ Clone the repository
 git clone <your_repo_url>
