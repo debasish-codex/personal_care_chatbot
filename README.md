@@ -31,16 +31,22 @@ Access data via pgAdmin or SQL queries.
 - Uses **Groq LLM** to answer general queries.  
 - **LangChain** wraps the LLM calls for easier integration.
 
-⚙️ Setup Instructions
-1️⃣ Clone the repository
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+```bash
 git clone <your_repo_url>
 cd personal_care_chatbot
 2️⃣ Create a virtual environment
 python -m venv venv
 3️⃣ Activate virtual environment
+
 Windows:
+
 venv\Scripts\activate
+
 Mac/Linux:
+
 source venv/bin/activate
 4️⃣ Install dependencies
 pip install -r requirements.txt
@@ -56,9 +62,13 @@ DB_PORT=5432
 Ensure PostgreSQL is installed and running.
 Create a database (e.g., chatbot_db).
 🚀 Run the Chatbot
+
 CLI version:
+
 python app.py
+
 Frontend (optional Streamlit version):
+
 streamlit run frontend.py
 ⚡ Features
 Product search with filters (price, brand)
@@ -70,3 +80,13 @@ Store conversations in PostgreSQL
 Debasish Pradhan
 
 
+✅ Key points:
+- Use **triple backticks ```** for code blocks → ensures commands are line by line  
+- Use **two spaces at end of line** (or `-` bullets) to create line breaks in Markdown  
+- Use `---` to separate sections  
+
+---
+
+If you want, I can **combine this Setup section with your full chatbot README including database, LLM, and screenshots** in a **single professional README** ready for GitHub.  
+
+Do you want me to do that next?
