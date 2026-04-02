@@ -34,7 +34,6 @@ Access data via pgAdmin or SQL queries.
 ## ⚙️ Setup Instructions
 
 1️⃣ Clone the repository
-```bash
 git clone <your_repo_url>
 cd personal_care_chatbot
 2️⃣ Create a virtual environment
