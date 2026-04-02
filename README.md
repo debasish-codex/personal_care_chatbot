@@ -70,6 +70,8 @@ python app.py
 Frontend (optional Streamlit version):
 
 streamlit run frontend.py
+
+```
 ⚡ Features
 Product search with filters (price, brand)
 LLM-powered general queries (benefits, usage)
