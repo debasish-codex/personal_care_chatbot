@@ -31,52 +31,42 @@ Access data via pgAdmin or SQL queries.
 - Uses **Groq LLM** to answer general queries.  
 - **LangChain** wraps the LLM calls for easier integration.
 
-
-
-
 ⚙️ Setup Instructions
-Clone the repository:
-
+1️⃣ Clone the repository
 git clone <your_repo_url>
 cd personal_care_chatbot
-
-Create a virtual environment:
+2️⃣ Create a virtual environment
 python -m venv venv
-
-Activate virtual environment:
+3️⃣ Activate virtual environment
 Windows:
 venv\Scripts\activate
-
-Install dependencies:
+Mac/Linux:
+source venv/bin/activate
+4️⃣ Install dependencies
 pip install -r requirements.txt
-
-Setup .env file:
--LLM_MODEL=groq-llm
--LLM_API_KEY=your_api_key_here
--DB_NAME=chatbot_db
--DB_USER=postgres
--DB_PASSWORD=your_db_password
--DB_HOST=localhost
--DB_PORT=5432
-
-Run PostgreSQL server and create a database (e.g., chatbot_db).
-
-.
+5️⃣ Setup .env file
+LLM_MODEL=groq-llm
+LLM_API_KEY=your_api_key_here
+DB_NAME=chatbot_db
+DB_USER=postgres
+DB_PASSWORD=your_db_password
+DB_HOST=localhost
+DB_PORT=5432
+6️⃣ Run PostgreSQL server
+Ensure PostgreSQL is installed and running.
+Create a database (e.g., chatbot_db).
 🚀 Run the Chatbot
 CLI version:
-
 python app.py
-
 Frontend (optional Streamlit version):
 streamlit run frontend.py
-<img width="1565" height="877" alt="Chatbot Screenshot" src="https://github.com/user-attachments/assets/c824b284-66c9-45ae-a5bc-a4c5a95a7c06" />
-
 ⚡ Features
-Product search with filters (price, brand).
-LLM powered general queries (benefits, usage).
-Redirect to support for returns, refunds, and offers.
-Store conversations in PostgreSQL.
-
+Product search with filters (price, brand)
+LLM-powered general queries (benefits, usage)
+Redirect to support for returns, refunds, and offers
+Store conversations in PostgreSQL
 🖋 Developed By
 
 Debasish Pradhan
+
+
