@@ -16,7 +16,7 @@ bot_response – chatbot reply
 Access data via pgAdmin or SQL queries.
 
 <img width="1552" height="397" alt="image" src="https://github.com/user-attachments/assets/e0dd7e65-9dc5-4d15-8adc-80225bd7101a" />
-<img width="1552" height="397" alt="image" src="https://github.com/user-attachments/assets/e0dd7e65-9dc5-4d15-8adc-80225bd7101a" />
+
 
 
 🤖 LLM (Groq + LangChain)
@@ -58,8 +58,6 @@ Frontend (optional Streamlit version):
 streamlit run frontend.py
 
 <img width="1565" height="877" alt="image" src="https://github.com/user-attachments/assets/c824b284-66c9-45ae-a5bc-a4c5a95a7c06" />
-<img width="1565" height="877" alt="image" src="https://github.com/user-attachments/assets/c824b284-66c9-45ae-a5bc-a4c5a95a7c06" />
-
 
 ⚡ Features
 Product search with filters (price, brand).
